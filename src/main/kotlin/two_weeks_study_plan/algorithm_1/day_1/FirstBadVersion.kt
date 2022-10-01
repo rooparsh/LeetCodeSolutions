@@ -1,4 +1,4 @@
-package two_weeks_study_plan.algorithm_1
+package two_weeks_study_plan.algorithm_1.day_1
 
 /**
  * Difficulty : Easy
