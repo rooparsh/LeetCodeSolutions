@@ -2,7 +2,7 @@ package two_weeks_study_plan.algorithm_1
 
 /**
  * Difficulty : Easy
- * Problem Statement : https://leetcode.com/problems/first-bad-version/
+ * Problem Statement : https://leetcode.com/problems/first-bad-version/?envType=study-plan&id=algorithm-i
  */
 
 fun main() {
