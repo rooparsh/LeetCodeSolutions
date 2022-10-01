@@ -1,4 +1,4 @@
-package two_weeks_study_plan.data_structure_1
+package two_weeks_study_plan.data_structure_1.day_1
 
 import kotlin.collections.HashMap
 

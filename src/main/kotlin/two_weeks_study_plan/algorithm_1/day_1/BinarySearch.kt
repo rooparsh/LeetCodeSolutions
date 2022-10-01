@@ -1,20 +1,12 @@
-package two_weeks_study_plan.algorithm_1
-
-
-/**
- * Difficulty : Easy
- * Problem Statement : https://leetcode.com/problems/search-insert-position/?envType=study-plan&id=algorithm-i
- */
+package two_weeks_study_plan.algorithm_1.day_1
 
 fun main() {
-    val array = arrayOf(1, 3, 5, 6).toIntArray()
-
-    print(SearchInsertPosition().searchInsert(array, 7))
+    val array = arrayOf(9).toIntArray()
+    println(BinarySearch().search(array, 9))
 }
 
-
-class SearchInsertPosition {
-    fun searchInsert(nums: IntArray, target: Int): Int {
+class BinarySearch {
+    fun search(nums: IntArray, target: Int): Int {
         var startIndex = 0
         var endIndex = nums.size - 1
 
@@ -29,6 +21,7 @@ class SearchInsertPosition {
                 endIndex = center - 1
             }
         }
-        return startIndex
+
+        return -1
     }
 }
