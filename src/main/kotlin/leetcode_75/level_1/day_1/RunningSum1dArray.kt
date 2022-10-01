@@ -1,5 +1,12 @@
 package leetcode_75.level_1.day_1
 
+
+
+/**
+ * Difficulty : Easy
+ * Problem Statement : https://leetcode.com/problems/running-sum-of-1d-array/?envType=study-plan&id=level-1
+ */
+
 fun main() {
     val array = arrayOf(1, 2, 3, 4).toIntArray()
 
