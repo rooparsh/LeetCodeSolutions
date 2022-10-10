@@ -1,5 +1,7 @@
 package two_weeks_study_plan.algorithm_1.day_5
 
+import util.ListNode
+
 
 /**
  * Difficulty : Easy
@@ -15,11 +17,6 @@ fun main() {
     val listNode1 = ListNode(1).apply { next = listNode2 }
 
     println(MiddleOfLinkedList().middleNode(listNode1)?.`val`)
-}
-
-
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
 }
 
 class MiddleOfLinkedList {

@@ -1,5 +1,7 @@
 package two_weeks_study_plan.algorithm_1.day_5
 
+import util.ListNode
+
 /**
  * Difficulty : Medium
  * Problem Statement : https://leetcode.com/problems/remove-nth-node-from-end-of-list/?envType=study-plan&id=algorithm-i

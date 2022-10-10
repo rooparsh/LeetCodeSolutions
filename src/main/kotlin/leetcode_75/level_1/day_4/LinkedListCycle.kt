@@ -1,6 +1,6 @@
 package leetcode_75.level_1.day_4
 
-import two_weeks_study_plan.algorithm_1.day_5.ListNode
+import util.ListNode
 
 /**
  * Difficulty : Easy

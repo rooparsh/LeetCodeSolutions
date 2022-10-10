@@ -1,6 +1,6 @@
 package leetcode_75.level_1.day_8
 
-import leetcode_75.level_1.day_6.TreeNode
+import util.TreeNode
 
 /**
  * Difficulty : Medium

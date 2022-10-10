@@ -1,5 +1,7 @@
 package two_weeks_study_plan.algorithm_1.day_7
 
+import util.Point
+import util.directions
 import java.util.*
 
 
@@ -13,17 +15,6 @@ fun main() {
 }
 
 class FloodFill {
-
-    data class Point(val x: Int, val y: Int)
-
-    private val directions: List<Point> = listOf(
-        Point(-1, 0),
-        Point(1, 0),
-        Point(0, -1),
-        Point(0, 1)
-    )
-
-
     fun floodFill(image: Array<IntArray>, sr: Int, sc: Int, color: Int): Array<IntArray> {
         val floodFilled: Array<IntArray> = image
         val visitQueue: Queue<Point> = ArrayDeque<Point>()

@@ -1,5 +1,6 @@
 package leetcode_75.level_1.day_6
 
+import util.TreeNode
 import java.util.*
 
 /**
@@ -8,11 +9,6 @@ import java.util.*
  */
 fun main() {
 
-}
-
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
 }
 
 class BinaryTreeTraversal {

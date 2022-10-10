@@ -1,5 +1,6 @@
 package leetcode_75.level_1.day_6
 
+import util.Node
 import java.util.Stack
 
 /**
@@ -40,6 +41,3 @@ class NaryTreeTraversal {
     }
 }
 
-class Node(var `val`: Int) {
-    var children: List<Node?> = listOf()
-}

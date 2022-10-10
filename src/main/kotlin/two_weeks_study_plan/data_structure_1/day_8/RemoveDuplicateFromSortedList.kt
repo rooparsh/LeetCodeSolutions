@@ -1,6 +1,6 @@
 package two_weeks_study_plan.data_structure_1.day_8
 
-import two_weeks_study_plan.algorithm_1.day_5.ListNode
+import util.ListNode
 
 /**
  * Difficulty : Easy
