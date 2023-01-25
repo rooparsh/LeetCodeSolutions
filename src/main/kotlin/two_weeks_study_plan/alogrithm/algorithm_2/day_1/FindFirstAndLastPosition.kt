@@ -1,4 +1,4 @@
-package two_weeks_study_plan.alogrithm.algorithm_2
+package two_weeks_study_plan.alogrithm.algorithm_2.day_1
 
 /**
  * Difficulty : Medium
