@@ -22,7 +22,7 @@ class SuccessfulPair {
                 val potion = potions[mid]
                 val strength = potion.toLong() * spells[i]
 
-                if (strength < success) {
+                if (strength >= success) {
                     r = mid - 1
                 } else {
                     l = mid + 1
